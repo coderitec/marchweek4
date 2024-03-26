@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&display=swap');
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 20px;
+    
+}
+h1 span, p span{
+    text-decoration: underline blue 10px;
+    background-color: white;
+    /* padding: 20px 0 20px 0;
+    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    padding-block: 20px;
+    display: inline-flex;
+
+}
+
+p{
+    font-family: "Great Vibes", cursive;
+    font-weight: lighter;
+    font-size: 2em;
+    font-style: normal;
+    word-spacing: 10px;
+    /* line-height: 2; */
+    background-color: fuchsia;
+    white-space-collapse: collapse;
+    
+}
+p::first-letter{
+    color: green;
+}
+
+li{
+    display: inline-block;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    color: #222;
+}
+
